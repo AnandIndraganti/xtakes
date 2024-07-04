@@ -7,14 +7,48 @@ Check out the below pics ![Sign In](sign-in.png) ![UI](ui.png) ![Profile](profil
 ## OVerview
 The Twitter Clone project is aimed at replicating the core functionalities of Twitter. It allows users to post tweets, follow other users, like tweets, and view their timeline. The application utilizes modern web development technologies and follows best practices for scalability and maintainability.
 
-First, run the development server:
+## Run Locally
+
+### Clone the project
+
+```bash
+git clone https://github.com/AnandIndraganti/xtakes.git
+```
+
+### Go to the project directory
+
+```bash
+cd xtakes
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Get the Database ready
+For Setting up database locally using docker
+Follow : https://github.com/prisma/prisma/discussions/18958 
+Connect through one of the following:
+```bash
+mongodb://localhost:27017,localhost:27018,localhost:27019/?replicaSet=myReplicaSetName
+mongodb://localhost:27017,localhost:27018,localhost:27019/my-database-name?replicaSet=myReplicaSetName
+```
+
+### Set up the .env File
+
+```bash
+DATABASE_URL=mongodb://localhost:27017,localhost:27018,localhost:27019/?replicaSet=myReplicaSetName
+NODE_ENV=development
+GOOGLE_CLIENT=your_google_cloud_web_client_id
+GOOGLE_SECRET=your_google_cloud_web_client_secret
+JWT_SECRETyour_jwt_secret_password
+```
+### First, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.

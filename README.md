@@ -2,11 +2,7 @@
 This project is a Twitter clone built using Next.js, Tailwind CSS, MongoDB, Prisma, NextAuth.js, and TypeScript.
 
 ## Demo
-Check out the below pics
-!(sign-in.png)
-!(ui.png)
-!(profile.png)
-!(profilepic.png)
+Check out the below pics ![Sign In](sign-in.png) ![UI](ui.png) ![Profile](profile.png) ![Profile Pic](profilepic.png)
 
 ## OVerview
 The Twitter Clone project is aimed at replicating the core functionalities of Twitter. It allows users to post tweets, follow other users, like tweets, and view their timeline. The application utilizes modern web development technologies and follows best practices for scalability and maintainability.

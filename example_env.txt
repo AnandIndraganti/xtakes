@@ -1,0 +1,6 @@
+//update below env variables to replicate the project
+// DATABASE_URL=
+// NODE_ENV=
+// GOOGLE_CLIENt=
+// GOOGLE_SECRET=
+// JWT_SECRET=

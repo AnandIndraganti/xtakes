@@ -1,6 +1,11 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Twitter Clone
+This project is a Twitter clone built using Next.js, Tailwind CSS, MongoDB, Prisma, NextAuth.js, and TypeScript.
 
-## Getting Started
+## Demo
+Check out the below pics
+!(/sign-in.png)
+## OVerview
+The Twitter Clone project is aimed at replicating the core functionalities of Twitter. It allows users to post tweets, follow other users, like tweets, and view their timeline. The application utilizes modern web development technologies and follows best practices for scalability and maintainability.
 
 First, run the development server:
 

@@ -1,4 +1,4 @@
-## Twitter Clone
+# Twitter Clone
 This project is a Twitter clone built using Next.js, Tailwind CSS, MongoDB, Prisma, NextAuth.js, and TypeScript.
 
 ## Demo
